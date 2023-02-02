@@ -9,7 +9,7 @@ students = ["Jazelle Brooklyn Digal", "Sia Reign Digal", "Presley Valor Digal"]
 print(students[1])
 print(students[-1])
 
-
+print('-----------------------------------------')
 # <!-- Exercise 2
 # Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
 # Use a forloop to print out the string "food goes here is a good food". -->
@@ -19,18 +19,22 @@ foods = ('apple', 'banana', 'carrot', 'date')
 for i in range(len(students)):
     print(foods[i] + " is a good food.")
 
+print('-----------------------------------------')
+
 # <!-- Exercise 3
 # Using a forloop, print just the last two food strings from foods. -->
 
+for food in foods[-2:]:
+    print(food)
 
-
+print('-----------------------------------------')
 # <!-- Exercise 4
 # Create a dictionary named home_town containing the keys of city, stateand population.
 # Print a string with this format:
 # "I was born in city, state - population of population" -->
 
 
-
+print('-----------------------------------------')
 # <!-- Exercise 5
 # Iterate over the key: value pairs in home_town and print a string for each item, for example:
 # 	"city = Arcadia"
@@ -38,7 +42,7 @@ for i in range(len(students)):
 # 	"population = 58000" -->
 
 
-
+print('-----------------------------------------')
 # <!-- Exercise 6
 # Create an empty list named cohort.
 # Using a forloop, add one dictionary to the cohortlist for each student name. Each dictionary should have this shape:
@@ -49,13 +53,13 @@ for i in range(len(students)):
 # Iterate over cohortprinting out each element. -->
 
 
-
+print('-----------------------------------------')
 # <!-- Exercise 7
 # Using the list of studentsand list comprehension, assign to a variable named awesome_studentsa new list containing strings similar to this:
 # ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
 # Iterate over awesome_studentsprinting out each string. -->
 
 
-
+print('-----------------------------------------')
 # <!-- Exercise 8
 # Using the tuple foodsand list comprehension within a forloop, print each food string that contains the letter a. -->
