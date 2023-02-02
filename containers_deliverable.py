@@ -63,6 +63,18 @@ print('-----------------------------------------')
 # }
 # Iterate over cohortprinting out each element. -->
 
+cohort = []
+student_names = ['Tina', 'Brooklyn', 'Reign', 'Valor']
+
+for student in student_names:
+  cohort.append({
+    'student': student,
+    'fav_food': 'Cheeseburger'
+  })
+
+for student in cohort:
+  print(student)
+
 
 print('-----------------------------------------')
 # <!-- Exercise 7
