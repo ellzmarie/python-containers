@@ -4,7 +4,7 @@
 # Print out the second student's name.
 # Print out the last student's name. -->
 
-students = ["Jazelle Brooklyn Digal", "Sia Reign Digal", "Presley Valor Digal"]
+students = ["Brooklyn", "Reign", "Valor"]
 
 print(students[1])
 print(students[-1])
@@ -56,7 +56,7 @@ print('-----------------------------------------')
 
 # <!-- Exercise 6
 # Create an empty list named cohort.
-# Using a forloop, add one dictionary to the cohortlist for each student name. Each dictionary should have this shape:
+# Using a for loop, add one dictionary to the cohortlist for each student name. Each dictionary should have this shape:
 # {
 # 	'student': 'Tina',
 # 	'fav_food': 'Cheeseburger'
