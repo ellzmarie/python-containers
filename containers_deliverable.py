@@ -49,8 +49,11 @@ print('-----------------------------------------')
 # 	"state = California"
 # 	"population = 58000" -->
 
+for key, val in home_town.items():
+	print(f"{key} = {val}")
 
 print('-----------------------------------------')
+
 # <!-- Exercise 6
 # Create an empty list named cohort.
 # Using a forloop, add one dictionary to the cohortlist for each student name. Each dictionary should have this shape:
