@@ -14,7 +14,6 @@ print(students[-1])
 # Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
 # Use a forloop to print out the string "food goes here is a good food". -->
 
-students = ['John', 'Jane', 'Jim', 'Jill']
 foods = ('apple', 'banana', 'carrot', 'date')
 
 for i in range(len(students)):
