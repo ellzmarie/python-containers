@@ -14,9 +14,9 @@ print('-----------------------------------------')
 # Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
 # Use a forloop to print out the string "food goes here is a good food". -->
 
-foods = ('apple', 'banana', 'carrot', 'date')
+foods = ('apple', 'banana', 'cherries', 'mangos')
 
-for i in range(len(students)):
+for i in range(len(foods)):
     print(foods[i] + " is a good food.")
 
 print('-----------------------------------------')
@@ -28,11 +28,19 @@ for food in foods[-2:]:
     print(food)
 
 print('-----------------------------------------')
+
 # <!-- Exercise 4
-# Create a dictionary named home_town containing the keys of city, stateand population.
+# Create a dictionary named home_town containing the keys of city, state and population.
 # Print a string with this format:
 # "I was born in city, state - population of population" -->
 
+home_town = {
+    "city": "sacramento",
+    "state": "california",
+    "population": "2555632"
+}
+
+print(f"I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']}")
 
 print('-----------------------------------------')
 # <!-- Exercise 5
