@@ -56,7 +56,7 @@ print('-----------------------------------------')
 
 # <!-- Exercise 6
 # Create an empty list named cohort.
-# Using a for loop, add one dictionary to the cohortlist for each student name. Each dictionary should have this shape:
+# Using a for loop, add one dictionary to the cohort list for each student name. Each dictionary should have this shape:
 # {
 # 	'student': 'Tina',
 # 	'fav_food': 'Cheeseburger'
@@ -78,11 +78,22 @@ for student in cohort:
 
 print('-----------------------------------------')
 # <!-- Exercise 7
-# Using the list of studentsand list comprehension, assign to a variable named awesome_studentsa new list containing strings similar to this:
+# Using the list of students and list comprehension, assign to a variable named awesome_students a new list containing strings similar to this:
 # ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
-# Iterate over awesome_studentsprinting out each string. -->
+# Iterate over awesome_students printing out each string. -->
+
+awesome_students = []
+
+for student in student_names:
+	print(f'{student} is awesome!')
 
 
 print('-----------------------------------------')
 # <!-- Exercise 8
-# Using the tuple foodsand list comprehension within a forloop, print each food string that contains the letter a. -->
+# Using the tuple foods and list comprehension within a for loop, print each food string that contains the letter a. -->
+
+foods = ('apple', 'banana', 'cherries', 'mangos')
+
+for food in foods: 
+     if 'a' in food:
+          print(food)
